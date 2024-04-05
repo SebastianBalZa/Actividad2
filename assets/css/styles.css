@@ -1,0 +1,78 @@
+body {
+    background-color: grey;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+.nav-column {
+    background-color: rgb(51, 48, 48);
+    font-size: 1rem;
+    font-weight: 700;
+    height: 100vh;
+    width: 10%;
+    border: 1px solid black;
+    position: fixed;
+    top: 0;
+    left: 0;
+    overflow-y: auto;
+}
+
+.nav-item a {
+    display: block;
+    padding: 1rem;
+    color: white;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-item a:hover {
+    background-color: #3f3e3e;
+}
+
+.texto-cyan {
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+}
+.texto-amarillo {
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.texto-naranja {
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+.texto-rojo {
+    color: black;
+    text-align: center;
+    margin-top: 100px; 
+}
+
+
+/* Fondo de colores */
+.fondo-celeste, .fondo-amarillo, .fondo-naranja, .fondo-rojo {
+    height: 250px;
+    border: 1px solid black;
+    text-align: center;
+}
+
+.fondo-celeste {
+    background-color: cyan;
+}
+
+.fondo-amarillo {
+    background-color: yellow;
+}
+
+.fondo-naranja {
+    background-color: orange;
+}
+
+.fondo-rojo {
+    background-color: red;
+}
